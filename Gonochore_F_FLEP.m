@@ -1,6 +1,10 @@
 function Gonochore_F_FLEP(Lf)
 
-% Simulate FLEP for range of F values for a gonochore,
+% Simulate FLEP (fracção não pescada de LEP (Lifetime egg production; esforço reprodutivo médio ao longo da vida de um recruta) 
+% numa população sujeita a pesca) for range of F values for a gonochore)
+
+% 
+
 % given a particular Lf (mean length of entry to fishery)
 
 % Load in life history parameters
