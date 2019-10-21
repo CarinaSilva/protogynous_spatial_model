@@ -1,6 +1,6 @@
 function LifeHistory_Params(Lf)
 
-% Specify life history parameters to be used in the model
+% Specify life history parameters to be used in the model #gshgqfhgqfdhfdh
 
 Amax = 20 ; % Number of age classes (max age is Amax-1 bc start counting at age 0)
 a = 1 ; % constant in betacdf function (positive concavity)
