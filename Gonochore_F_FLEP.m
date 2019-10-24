@@ -18,7 +18,7 @@ LEP=nan(1,length(F)) ;
 
     for f=1:length(F)
     
-isfished(:,1)=1./(1+exp(-r.*((D(2,:)')-Lf))) ;
+isfished(:,1)=1./(1+exp(-r.*((D(2,:)')-Lf))) ;       %isfished vem do LifeHistory_param
 Z=uA+((F(f)).*isfished) ; %Annual adult survival per age class
 Surv=exp(-Z)  ; %instantaneous mortality rate... e^-(M+F)
 Surv = [1; cumprod(Surv(1:end-1))]; % cumulative survival to each age
